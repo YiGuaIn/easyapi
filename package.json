@@ -4,9 +4,9 @@
   "author": "xiulian",
   "description": "An apigen electron application.",
   "license": null,
-  "main": "utils/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "gen": "node utils/index.js filedir=src/routes filename=*.route.js"
+    "gen": "node lib/index.js filedir=src/routes filename=*.route.js"
   },
   "files": [
     "README.md",
@@ -40,5 +40,6 @@
     "glob": "^7.1.2",
     "mocha": "^3.0.2",
     "node-loader": "^0.6.0"
-  }
+  },
+  "dependencies": {}
 }
