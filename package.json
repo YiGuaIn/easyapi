@@ -1,8 +1,8 @@
 {
-  "name": "apitool",
-  "version": "0.0.0",
-  "author": "xiulian",
-  "description": "An apigen electron application.",
+  "name": "mousetool",
+  "version": "0.0.1",
+  "author": "yiguain",
+  "description": "This is a generator api tool.",
   "license": null,
   "main": "lib/index.js",
   "scripts": {
