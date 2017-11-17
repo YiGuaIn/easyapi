@@ -20,6 +20,8 @@
                 padding: 30px 0;
                 text-align: center;
                 box-sizing: border-box;
+                max-height: 100%;
+                overflow-y: auto;
             }
             li {
                 list-style: none;
