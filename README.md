@@ -2,7 +2,7 @@
 ---
 ## 使用方法
 1. npm install git+https://github.com/YiGuaIn/easyapi.git
-2. 可在package.json添加配置项
+2. 可在package.json下的scripts添加配置项
     * filedir: 扫描的目录, 默认为根目录
     * filename: 扫描的文件， 默认为 *.api.js
     * htmldir: 生成html的指定目录, 默认是根目录, 且为doc
