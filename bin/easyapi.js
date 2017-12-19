@@ -24,6 +24,7 @@ let config = {
 };
 
 let argvs = process.argv
+
 // argvs.forEach(el => {
 //     if (!el.includes('=')) return false
 //     let argv = el.split('=')
