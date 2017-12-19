@@ -9,8 +9,9 @@ function run(){
             .option('sname', {alias: 'sn', describe: '请配置搜索的文件名'})
             .option('fdir', {alias: 'fd', describe: '请配置生成的根目录'})
             .option('fname', {alias: 'fn', describe: '请配置生成文件的名称'})
-            .option('host', {describe: '请配置生成的根目录'})
-            .option('port', {describe: '请配置生成文件的名称'})
+            .option('host', {describe: '服务地址'})
+            .option('port', {describe: '服务端口'})
+            .demandOption(['sdir', 'sname', 'fdir', 'fname'], '请检查配置的参数')
             .help()
             .argv;
             
