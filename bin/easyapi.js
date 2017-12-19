@@ -8,11 +8,11 @@ let argv = require('yargs')
     .option('port', {describe: '请配置生成文件的名称'})
     .demandOption(['run', 'sdir'], '请检查配置的参数')
     .help()
-    .argv
+    .argv;
 
-let easyInit = require('../lib/index.js')
+let easyInit = require('../lib/index.js');
 
-console.log(argv)
+console.log(argv);
 let config = {
     run: argv.r,
     sdir: argv.sd || 'src/routes',
@@ -20,8 +20,8 @@ let config = {
     fdir: argv.fd || 'doc',
     fname: argv.fn || 'api.html',
     host: argv.host || '127.0.0.1',
-    port: argv.port || 8088,
-}
+    port: argv.port || 8088
+};
 
 // let argvs = process.argv
 // argvs.forEach(el => {
@@ -43,4 +43,4 @@ let config = {
 //     } 
 // })
 
-easyInit(config)
+easyInit(config);
