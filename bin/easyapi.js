@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 let yargs = require('yargs');
 yargs.option('run', {alias: 'r', describe: '是否运行服务'});
 yargs.option('sdir', {alias: 'sd', describe: '请配置搜索的目录'});
