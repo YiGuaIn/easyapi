@@ -26,7 +26,7 @@ function run(){
                 port: argv.port || 8088
             };
             
-            console.log(confg);
+            console.log(config);
             // let argvs = process.argv
             
             // argvs.forEach(el => {
