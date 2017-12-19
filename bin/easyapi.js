@@ -24,23 +24,23 @@ let config = {
 };
 
 let argvs = process.argv
-argvs.forEach(el => {
-    if (!el.includes('=')) return false
-    let argv = el.split('=')
-    switch (argv[0].toLowerCase()) {
-        case 'filename'.toLowerCase():
-            config.filename = argv[1]
-            break
-        case 'fileDir'.toLowerCase():
-            config.filedir = argv[1]
-            break
-        case 'htmlname'.toLowerCase():
-            config.htmlname = argv[1]
-            break
-        case 'htmldir'.toLowerCase():
-            config.htmldir = argv[1]
-            break
-    } 
-})
+// argvs.forEach(el => {
+//     if (!el.includes('=')) return false
+//     let argv = el.split('=')
+//     switch (argv[0].toLowerCase()) {
+//         case 'filename'.toLowerCase():
+//             config.filename = argv[1]
+//             break
+//         case 'fileDir'.toLowerCase():
+//             config.filedir = argv[1]
+//             break
+//         case 'htmlname'.toLowerCase():
+//             config.htmlname = argv[1]
+//             break
+//         case 'htmldir'.toLowerCase():
+//             config.htmldir = argv[1]
+//             break
+//     } 
+// })
 
 easyInit(config);

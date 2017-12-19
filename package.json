@@ -7,7 +7,7 @@
   "main": "bin/easyapi.js",
   "scripts": {
     "gen": "node lib/index.js filedir=src/routes filename=*.route.js",
-    "test": "node lib/aa.js filedir=src/routes filename=*.route.js",
+    "test": "node bin/easyapi",
     "yagss": "node bin/easyapi --run --sd=src/routes --sn=*.route.js --fd=E:\\Users\\api --fn=index.html"
   },
   "engines": {
