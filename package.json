@@ -14,11 +14,10 @@
     "README.md",
     "templates",
     "utils",
-    "bin",
-    "easyapi.js"
+    "bin"
   ],
   "bin": {
-    "easyapi": "node bin/easyapi.js"
+    "easyapi": "bin/easyapi.js"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
