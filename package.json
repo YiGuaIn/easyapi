@@ -13,7 +13,8 @@
   "files": [
     "README.md",
     "templates",
-    "utils"
+    "utils",
+    "bin"
   ],
   "bin": {
     "easyapi": "bin/easyapi"
