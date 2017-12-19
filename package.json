@@ -40,9 +40,10 @@
     "glob": "^7.1.2",
     "mocha": "^3.0.2",
     "node-loader": "^0.6.0",
-    "cheerio": "^1.0.0-rc.2"
+    "cheerio": "^1.0.0-rc.2",
+    "yargs": "^10.0.3"
   },
   "Dependencies": {
-    "yargs": "^10.0.3"
+    
   }
 }
