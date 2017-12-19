@@ -18,7 +18,7 @@
     "easyapi.js"
   ],
   "bin": {
-    "easyapi": "bin/easyapi"
+    "easyapi": "node bin/easyapi.js"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
