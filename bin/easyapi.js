@@ -2,13 +2,13 @@
 let exec = require('child_process').exec;
 
 function install() {
-    return new Promise((resolve, reject)){
+    return new Promise((resolve, reject) => {
         try {
             console.log('---------运行中-----------')
             console.log('----------正在安装依赖包，请稍等-----------')
             console.log('*****************************************')
             exec("npm install")
-            console.log('----------安装完成，正在生成````-----------')
+            console.log('----------安装完成，正在生成`-----------')
             resolve('ok...')
         } catch (error) {
             reject(error)
@@ -72,6 +72,6 @@ function run(){
 }
 
 async function init(){
-    await install();
+    // await install();
     await run();
 }
