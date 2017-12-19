@@ -50,6 +50,7 @@ function run(){
             easyInit(config);
             resolve('ok...')
         } catch (error) {
+            console.log('2124545')
             reject(error)
         }
     })
