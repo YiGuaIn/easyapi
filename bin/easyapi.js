@@ -13,7 +13,7 @@ function install() {
         } catch (error) {
             reject(error)
         }
-    }
+    })
 }
 
 function run(){
