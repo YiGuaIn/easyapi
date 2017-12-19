@@ -1,10 +1,10 @@
 {
   "name": "easyapi",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "author": "yiguain",
   "description": "This is a generator api tool.",
   "license": null,
-  "main": "bin/easyapi.js",
+  "main": "lib/index.js",
   "scripts": {
     "gen": "node lib/index.js filedir=src/routes filename=*.route.js",
     "test": "node bin/easyapi",
@@ -42,8 +42,5 @@
     "node-loader": "^0.6.0",
     "cheerio": "^1.0.0-rc.2",
     "yargs": "^10.0.3"
-  },
-  "Dependencies": {
-    
   }
 }
