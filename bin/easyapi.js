@@ -9,37 +9,37 @@ yargs.option('port', {describe: '请配置生成文件的名称'});
 yargs.help();
 let argv = yargs.argv;
 
-// let easyInit = require('../lib/index.js');
+let easyInit = require('../lib/index.js');
 
-// console.log(argv);
-// let config = {
-//     run: argv.r,
-//     sdir: argv.sd || 'src/routes',
-//     sname: argv.sn || '*.route.js',
-//     fdir: argv.fd || 'doc',
-//     fname: argv.fn || 'api.html',
-//     host: argv.host || '127.0.0.1',
-//     port: argv.port || 8088
-// };
+console.log(argv);
+let config = {
+    run: argv.r,
+    sdir: argv.sd || 'src/routes',
+    sname: argv.sn || '*.route.js',
+    fdir: argv.fd || 'doc',
+    fname: argv.fn || 'api.html',
+    host: argv.host || '127.0.0.1',
+    port: argv.port || 8088
+};
 
-// let argvs = process.argv
-// argvs.forEach(el => {
-//     if (!el.includes('=')) return false
-//     let argv = el.split('=')
-//     switch (argv[0].toLowerCase()) {
-//         case 'filename'.toLowerCase():
-//             config.filename = argv[1]
-//             break
-//         case 'fileDir'.toLowerCase():
-//             config.filedir = argv[1]
-//             break
-//         case 'htmlname'.toLowerCase():
-//             config.htmlname = argv[1]
-//             break
-//         case 'htmldir'.toLowerCase():
-//             config.htmldir = argv[1]
-//             break
-//     } 
-// })
+let argvs = process.argv
+argvs.forEach(el => {
+    if (!el.includes('=')) return false
+    let argv = el.split('=')
+    switch (argv[0].toLowerCase()) {
+        case 'filename'.toLowerCase():
+            config.filename = argv[1]
+            break
+        case 'fileDir'.toLowerCase():
+            config.filedir = argv[1]
+            break
+        case 'htmlname'.toLowerCase():
+            config.htmlname = argv[1]
+            break
+        case 'htmldir'.toLowerCase():
+            config.htmldir = argv[1]
+            break
+    } 
+})
 
-// easyInit(config);
+easyInit(config);

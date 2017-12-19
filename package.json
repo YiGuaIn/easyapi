@@ -11,9 +11,9 @@
     "yagss": "node bin/easyapi --run --sd=src/routes --sn=*.route.js --fd=E:\\Users\\api --fn=index.html"
   },
   "engines": {
-    "node": ">= 4.0.0"
+    "node": ">= 6.0.0"
   },
-  "bin": "./bin/easyapi.js",
+  "bin": "bin/easyapi.js",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-eslint": "^7.2.3",
