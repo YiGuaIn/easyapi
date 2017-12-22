@@ -1,4 +1,5 @@
 {
+  "presets": ["env"],
   "comments": false,
   "plugins": ["transform-runtime"]
 }
