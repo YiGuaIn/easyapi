@@ -8,7 +8,7 @@
   "scripts": {
     "gen": "node lib/index.js filedir=src/routes filename=*.route.js",
     "test": "node bin/easyapi",
-    "yagss": "node bin/easyapi --run --sd=E:\\webroot\\backend-node-old --sn=**/*.routes.js --fd=E:\\weblogs\\api --fn=index.html"
+    "yagss": "node bin/easyapi  --run --sd=/Users/pro/Documents/wwwroot/backend-node --sn=**/*.routes.js --fd=/Users/pro/Documents/api --fn=index.html"
   },
   "engines": {
     "node": ">= 6.0.0"
