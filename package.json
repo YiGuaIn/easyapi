@@ -43,8 +43,5 @@
     "mocha": "^3.0.2",
     "node-loader": "^0.6.0",
     "yargs": "^10.0.3"
-  },
-  "devDependencies": {
-    "randomatic": ">=3.0.0"
   }
 }
